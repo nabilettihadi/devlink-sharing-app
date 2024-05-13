@@ -9,7 +9,7 @@ import { LinkList, AddLinkForm, Profile } from './components';
 
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://devlink-sharing-app.hasura.app/v1/graphql',
   cache: new InMemoryCache(),
 });
 
